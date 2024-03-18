@@ -1,0 +1,17 @@
+.right_column {
+    margin-right: 15px;
+    margin-top: 127px;
+    margin-left: 130px;;
+}
+
+.multiplierContainer {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.multiplier {
+    margin-top: 30px;
+    font-size: 4em;
+    color: #fff;
+}

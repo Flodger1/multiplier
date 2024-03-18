@@ -1,0 +1,50 @@
+.chatContainer {
+    font-family: "Merriweather", serif;
+    font-size: 15px;;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    position: static;
+    margin-top: 59px;
+    box-shadow: 0 4px 8px rgba(240, 236, 236, 0.734);
+}
+
+.messagesContainer {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    background: #222;
+}
+
+.message {
+    margin: 5px 0;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+    background: #444;
+
+}
+
+.inputContainer {
+    display: flex;
+    border-top: 1px solid #555;
+}
+
+.inputField {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sendButton {
+    padding: 10px;
+    border: none;
+    background: #555;
+    color: white;
+    cursor: pointer;
+}

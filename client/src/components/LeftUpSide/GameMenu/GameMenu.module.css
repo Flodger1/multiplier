@@ -1,0 +1,72 @@
+.gameMenu {
+  font-family: "Merriweather", serif;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+}
+
+.button {
+  background-color: #f90;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.buttonDisabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button img {
+  width: 10px;
+  height: 10px;
+}
+
+.button:hover {
+  background-color: #e80;
+}
+
+.input {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  color: #333;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f90;
+  color: #333;
+}
+
+.currentRound {
+  width: 100%;
+  text-align: center;
+}
